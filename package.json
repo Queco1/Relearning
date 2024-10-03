@@ -1,25 +1,24 @@
 {
-  "name": "react-relearning",
-  "version": "1.0.0",
-  "description": "first project to relearning react from beginning",
-  "main": "index.js",
+  "name": "metas-diarias",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "author": "Pedro",
-  "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "next": "^14.2.13",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.14"
   },
   "devDependencies": {
-    "@types/node": "22.7.4",
-    "@types/react": "18.3.10",
-    "typescript": "5.6.2"
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14"
   }
 }
