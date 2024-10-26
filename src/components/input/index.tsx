@@ -7,9 +7,9 @@ type InputProps = {
 
 function Input({ name, ...rest }: InputProps) {
   return (
-    <div className="container">
+    <div className="containerInput">
       <label>{name}</label>
-      <input placeholder={name} {...rest} />
+      <input placeholder={name} {...rest} id="input" />
     </div>
   );
 }

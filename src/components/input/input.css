@@ -1,6 +1,13 @@
-.container {
+.containerInput {
   display: flex;
   flex-direction: column;
   padding: 20px;
   gap: 20px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+
+  align-self: center;
+}
+
+#input {
+  margin-bottom: 20px;
 }

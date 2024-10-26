@@ -5,12 +5,15 @@ import Button from "@/components/button";
 
 function Login() {
   return (
-    <div>
-      <form className="container">
-        <Input name="E-mail" />
-        <Input name="Senha" />
-        <Button>Salvar</Button>
-      </form>
+    <div className="container">
+      <div className="card">
+        <h1 className="tituloLogin">Login</h1>
+        <form>
+          <Input name="E-mail" />
+          <Input name="Senha" />
+          <Button>Salvar</Button>
+        </form>
+      </div>
     </div>
   );
 }
